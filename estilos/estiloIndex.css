@@ -1,0 +1,248 @@
+body{
+	
+}
+#principal{
+	margin-left: 140px;
+	margin-right: 140px;
+}
+#irPrincipal{
+	text-decoration: none;
+}
+#contTitulo{
+	color: #9932CC;
+	font-family: arial;
+	font-size: 130%;
+}
+#titulo{
+	font-size: 300%;
+	margin: 0px;
+	padding-top: 10px;
+}
+#navegacion{
+	height: 60px;
+	margin-top: 10px;
+}
+#nav1{
+	width: 214px;
+	height: 60px;
+	background-color: 	#494949;
+	display: inline-block;
+	margin-right: -5px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	-webkit-transition-property: background, width, height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#nav1:hover{
+	background-color: #9932CC;
+	color: white;
+}
+#nav2{
+	width: 214px;
+	height: 60px;
+	background-color: #F7F7F7;
+	color: #9932CC;
+	font-family: arial;
+	display: inline-block;
+	margin-right: -5px;
+	text-align: center;
+	-webkit-transition-property: background, width, height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#nav2:hover{
+	background-color: #9932CC;
+	color: white;
+}
+#nav3{
+	width: 214px;
+	height: 60px;	
+	display: inline-block;
+	margin-right: -5px;
+	text-align: center;
+	font-family: arial;
+	color: #9932CC;
+	background-color: #F7F7F7;
+	-webkit-transition-property: background, width, height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#nav3:hover{
+	background-color: #9932CC;
+	color: white;
+}
+#nav4{
+	width: 214px;
+	height: 60px;
+	background-color: #F7F7F7;
+	display: inline-block;
+	margin-right: -5px;
+	text-align: center;
+	font-family: arial;
+	color: #9932CC;
+	-webkit-transition-property: background, width, height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#nav4:hover{
+	background-color: #9932CC;
+	color: white;
+}
+#nav5{
+	width: 202px;
+	height: 60px;
+	background-color: #F7F7F7;
+	position: absolute;
+	text-align: center;
+	font-family: arial;
+	color: #9932CC;
+	left: 1000px;
+	top: 102px;
+	-webkit-transition-property: background, width, height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#nav5:hover{
+	background-color: #9932CC;
+	color: white;
+}
+#contCabecera{
+	height: 250px;
+	margin-top: 10px;
+	background-image: url("img/head.jpg");
+}
+#titulo2{color: 
+	opacity: 1;
+}
+#contenido{
+	margin-top: 10px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+#novedades{
+	width: 730px;
+	height: 1000px;
+}
+#contenidoCostado{
+	background-color: lightgrey;
+	width: 303px;
+	height: 1500px;
+	margin-left: 750px;
+	margin-top: -1000px;
+}
+.noticia{
+	height: 400px;
+	background-color: lightgray;
+	display: block;
+	margin-bottom: 20px;
+	position: relative;
+	font-family: verdana;
+	color: white;
+	overflow: hidden;
+}
+#redes{
+	width: 303px;
+	height: 120px;
+}
+#siguenos{
+	background-color: #494949;
+	width: 303px;
+	height: 60px;
+	color: white;
+	text-align: center;
+}
+#siguenosTitulo{
+	font-family: arial;
+	margin: 0px;
+	padding-top: 16px;
+}
+#socialImg{
+	background-image: url("img/social.png");
+	width: 303px;
+	height: 60px;
+	position: relative;
+}
+#facebook{
+	width: 60.6px;
+	height: 60px;
+	position: absolute;
+	display: inline-block;
+}
+#twitter{
+	width: 60.6px;
+	height: 60px;
+	position: absolute;
+	display: inline-block;
+	left: 60.6px;	
+}
+#youtube{
+	width: 60.6px;
+	height: 60px;
+	position: absolute;
+	display: inline-block;
+	left: 121.2px;		
+}
+#google{
+	width: 60.6px;
+	height: 60px;
+	position: absolute;
+	display: inline-block;
+	left: 181.8px;	
+}
+#rss{
+	width: 60.6px;
+	height: 60px;
+	position: absolute;
+	display: inline-block;
+	left: 242.4px;		
+}
+#twitterIn{
+	display: inline-block;
+	width: 303px;
+}
+#fb-root{
+	height: 300px;
+}
+.imagenFondo{
+	height: 400px;
+	background-image: url("img/animeCastle.png");
+	-webkit-transition-property: width,height;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+}
+#pantallaEfecto{
+	height: 400px;
+	background-color: white;
+	opacity: 0.1;
+	margin-top: -400px;
+	-webkit-transition-property: background, opacity;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function:easy-out;
+	cursor: pointer;
+}
+#pantallaEfecto:hover{
+	background-color: lightgrey;
+	opacity: 0.0;
+}
+#tituloNoticia{
+	height: 100px;
+	width: 730px;
+	background-color: #333333;
+	margin-top: -100px;
+	position: absolute;
+	display: inline-block;
+	z-index: 3;
+}
+#titNoticia{
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 20px;
+	z-index: 4;
+}
