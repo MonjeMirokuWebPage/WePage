@@ -1,5 +1,6 @@
 body{
-	
+	margin: 0;	
+	background-color: #F0F0F0;
 }
 #principal{
 	margin-left: 140px;
@@ -8,28 +9,42 @@ body{
 #irPrincipal{
 	text-decoration: none;
 }
+#cabeza{
+	width: 240px;
+	height: 240px;
+	background-image: url("img/HNI_0004.jpg");
+}
+#cab{
+	margin-left: 560px;
+	padding-top: 50px;
+}
 #contTitulo{
-	color: #9932CC;
-	font-family: arial;
+	background-image: url("img/type.png");
+	color: #F0F0F0;
+	font-family: verdana;
 	font-size: 130%;
+	text-align: center;
+	height: 500px;
 }
 #titulo{
-	font-size: 300%;
+	font-size: 200%;
 	margin: 0px;
-	padding-top: 10px;
+	padding-top: 70px;
 }
 #navegacion{
 	height: 60px;
 	margin-top: 10px;
+	z-index: 5;
+	box-shadow: 0px 5px 15px #999;
 }
 #nav1{
-	width: 214px;
+	width: 270px;
 	height: 60px;
-	background-color: 	#494949;
 	display: inline-block;
 	margin-right: -5px;
 	text-align: center;
-	color: white;
+	background-color: #F7F7F7;
+	color:  #9932CC;
 	font-family: arial;
 	-webkit-transition-property: background, width, height;
 	-webkit-transition-duration: 1s;
@@ -41,7 +56,7 @@ body{
 	color: white;
 }
 #nav2{
-	width: 214px;
+	width: 268px;
 	height: 60px;
 	background-color: #F7F7F7;
 	color: #9932CC;
@@ -59,7 +74,7 @@ body{
 	color: white;
 }
 #nav3{
-	width: 214px;
+	width: 268px;
 	height: 60px;	
 	display: inline-block;
 	margin-right: -5px;
@@ -77,7 +92,7 @@ body{
 	color: white;
 }
 #nav4{
-	width: 214px;
+	width: 266px;
 	height: 60px;
 	background-color: #F7F7F7;
 	display: inline-block;
@@ -127,14 +142,14 @@ body{
 	margin-right: 140px;
 }
 #novedades{
-	width: 730px;
+	width: 750px;
 	height: 1000px;
 }
 #contenidoCostado{
 	background-color: lightgrey;
-	width: 303px;
-	height: 1500px;
-	margin-left: 750px;
+	width: 304px;
+	height: 1240px;
+	margin-left: 765px;
 	margin-top: -1000px;
 }
 .noticia{
@@ -219,7 +234,7 @@ body{
 }
 #tituloNoticia{
 	height: 150px;
-	width: 730px;
+	width: 750px;
 	background-color: #9932CC;
 	margin-top: -60px;
 	position: absolute;
@@ -245,4 +260,72 @@ body{
 #comentNoticia{
 	margin-left: 35px;
 	font-size: 110%;
+}
+#control{
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-top: 10px;
+}
+#izq{
+	background-color: #F0F0F0;
+	width: 532px;
+	height: 80px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function:easy-out;
+}
+#izq:hover{
+	background-color: lightgrey;
+}
+#izqImg{
+	width: 64px;
+	height: 64px;
+	background-image: url("img/left.png");
+	margin-left: 230px;
+	margin-top: 10px;
+}
+#der{
+	background-color: #F0F0F0;
+	width: 532px;
+	height: 80px;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function:easy-out;
+}
+#der:hover{
+	background-color: lightgrey;
+}
+#derImg{
+	width: 64px;
+	height: 64px;
+	background-image: url("img/right.png");
+	margin-left: 230px;
+	margin-top: 10px;
+}
+#footer{
+	background-color: red;
+	height: 150px;
+	margin-left: 140px;
+	margin-right: 140px;
+	background-color: lightgray;
+	text-align: center;
+}
+
+#divisor{
+	height: 3px;
+	background-color: #9932CC;
+}
+#creditos{
+	padding-top: 40px;
+	font-size: 100%;
+	color: #F0F0F0;
+	font-family: arial;
+}
+#nombre{
+	color: #9932CC;
+	font-family: verdana;
 }
