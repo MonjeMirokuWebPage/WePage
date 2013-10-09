@@ -146,6 +146,7 @@ body{
 	font-family: verdana;
 	color: white;
 	overflow: hidden;
+	cursor: pointer;
 }
 #redes{
 	width: 303px;
@@ -212,37 +213,36 @@ body{
 }
 .imagenFondo{
 	height: 400px;
-	background-image: url("img/animeCastle.png");
 	-webkit-transition-property: width,height;
 	-webkit-transition-duration: 1s;
 	-webkit-transition-timing-function:easy-out;
 }
-#pantallaEfecto{
-	height: 400px;
-	background-color: white;
-	opacity: 0.1;
-	margin-top: -400px;
-	-webkit-transition-property: background, opacity;
-	-webkit-transition-duration: 1s;
-	-webkit-transition-timing-function:easy-out;
-	cursor: pointer;
-}
-#pantallaEfecto:hover{
-	background-color: lightgrey;
-	opacity: 0.0;
-}
 #tituloNoticia{
-	height: 100px;
+	height: 150px;
 	width: 730px;
-	background-color: #333333;
-	margin-top: -100px;
+	background-color: #9932CC;
+	margin-top: -60px;
 	position: absolute;
 	display: inline-block;
 	z-index: 3;
+	cursor: pointer;
+	-webkit-transition-property: background, margin;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function:easy-out;
+}
+#tituloNoticia:hover{
+	margin-top: -110px;
+	margin-bottom: solid 10px #9932CC;
+}
+.noticia:hover>#tituloNoticia{
+	background-color: white;
+	color: #9932CC;
+	border-left: solid 10px #9932CC; 
 }
 #titNoticia{
-	position: absolute;
-	margin-top: -90px;
 	margin-left: 20px;
-	z-index: 4;
+}
+#comentNoticia{
+	margin-left: 35px;
+	font-size: 110%;
 }
