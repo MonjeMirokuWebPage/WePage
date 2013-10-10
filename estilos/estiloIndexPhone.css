@@ -1,0 +1,9 @@
+@media screen and (max-width: 500px){
+	#contTitulo{
+		height: 350px;
+	}
+	#cab{
+		margin-left: 70px;
+		
+	}
+}
